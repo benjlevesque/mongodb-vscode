@@ -1,12 +1,13 @@
 ignores:
  - "@babel/core"
  - "@babel/preset-typescript"
+ - "@mongodb-js/eslint-config-devtools"
  - "@mongodb-js/prettier-config-compass"
  - "@types/jest"
  - "buffer"
- - "eslint-config-mongodb-js"
  - "keytar"
  - "electron"
+ - "eslint-plugin-mocha"
  - "mocha-junit-reporter"
  - "mocha-multi"
  - "mongodb-client-encryption"
@@ -24,3 +25,6 @@ ignores:
  - style-loader
  - ts-loader
  - mongodb-runner
+
+ignore-patterns:
+ - .eslintrc.js
